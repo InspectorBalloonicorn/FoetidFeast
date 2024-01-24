@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Wreck of the Mikko",
+        "Description": "Where the Mouldtongues waste their years for the tasting of her flesh...",
+        "ImageName": "wreckofthemikko_port",
+        "MoveMessage": "You have moved to a new area",
+        "Id": 852400
+    },
+    {
+        "Name": "Port Addey",
+        "Description": "A verdant growth of green",
+        "ImageName": "wreckofthemikko_port",
+        "MoveMessage": "You have moved to a new area",
+        "Id": 852403
+    }
+]

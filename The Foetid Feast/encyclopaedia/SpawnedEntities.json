@@ -1,0 +1,37 @@
+[{
+        "Name": "MidnightWhale",
+        "ParentSpawnPoint": null,
+        "HumanName": "Midnight Whale",
+        "Neutral": false,
+        "Description": "",
+        "PrefabName": "Fierce/Organic/MidnightWhale",
+        "DormantBehaviour": "Wandering",
+        "AwareBehaviour": "Wandering",
+        "Hull": 0,
+        "Crew": 0,
+        "Life": 15000,
+        "MovementSpeed": 14,
+        "RotationSpeed": 0.9,
+        "BeastieCharacteristicsName": "GenericSwimmer",
+        "BeastieCharacteristics": {
+            "MinAttackRange": 0,
+            "MaxAttackRange": 0,
+            "AwarenessRange": 0,
+            "VisionConeRange": 0,
+            "VisionConeAngle": 0,
+            "EvadeRange": 0,
+            "IlluminationTimeToEvade": 0,
+            "ChaseTimeToSneaking": 0,
+            "CanSubmerge": false,
+            "ChanceToStartSubmerged": 0
+        },
+        "CombatAttackNames": [
+            "RammingAttack"
+        ],
+        "CombatItems": [],
+        "StartCombatEventId": 0,
+        "PacifyEventId": 0,
+        "KillQualityEventId": 150216,
+        "LootPrefabName": "Blood",
+        "GleamValue": 0
+    }]

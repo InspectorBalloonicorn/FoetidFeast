@@ -1,0 +1,607 @@
+[
+    {
+        "Name": "Myceligaea",
+        "Tiles": [
+            {
+                "Name": "genericEastOfChelonate",
+                "MaxPhenomPopulation": 0,
+                "ParentGroupName": "",
+                "Position": null,
+                "HumanName": "Myceligaea",
+                "Description": "The water is sluggish with hyphal threads. Violet vegetable bulks break the surface. Myceligaea!",
+                "ProcLocations": [
+                    {
+                        "SpawnCount": 1,
+                        "Transient": false,
+                        "ActivationChance": 100,
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "Leeway": 750,
+                        "AllowedFlavours": [
+                            "WildSpawn"
+                        ],
+                        "DisallowedFlavours": []
+                    },
+                    {
+                        "SpawnCount": 1,
+                        "Transient": false,
+                        "ActivationChance": 100,
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "Leeway": 750,
+                        "AllowedFlavours": [
+                            "WildMenace"
+                        ],
+                        "DisallowedFlavours": []
+                    },
+                    {
+                        "SpawnCount": 3,
+                        "Transient": true,
+                        "ActivationChance": 50,
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "Leeway": 750,
+                        "AllowedFlavours": [
+                            "WildInteractable"
+                        ],
+                        "DisallowedFlavours": []
+                    },
+                    {
+                        "SpawnCount": 3,
+                        "Transient": true,
+                        "ActivationChance": 50,
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "Leeway": 750,
+                        "AllowedFlavours": [
+                            "MediumInteractable"
+                        ],
+                        "DisallowedFlavours": []
+                    },
+                    {
+                        "SpawnCount": 1,
+                        "Transient": false,
+                        "ActivationChance": 100,
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "Leeway": 750,
+                        "AllowedFlavours": [
+                            "KhanSpawn"
+                        ],
+                        "DisallowedFlavours": []
+                    },
+                    {
+                        "SpawnCount": 20,
+                        "Transient": false,
+                        "ActivationChance": 100,
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "Leeway": 750,
+                        "AllowedFlavours": [
+                            "DecalSeaweed"
+                        ],
+                        "DisallowedFlavours": []
+                    },
+                    {
+                        "SpawnCount": 8,
+                        "Transient": false,
+                        "ActivationChance": 100,
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "Leeway": 750,
+                        "AllowedFlavours": [
+                            "DecalCoral"
+                        ],
+                        "DisallowedFlavours": []
+                    }
+                ],
+                "SpawnPoints": [
+                    {
+                        "Name": "MyceligaeaCrab",
+                        "Subsurface": false,
+                        "QualityRequired": null,
+                        "Description": "",
+                        "Position": {
+                            "X": 353,
+                            "Y": 410
+                        },
+                        "Radius": 300,
+                        "DiscoveryValue": 20,
+                        "ParentTile": null,
+                        "Spawns": [
+                            {
+                                "SpawnName": "EasternAnglerCrab",
+                                "Entity": null,
+                                "SpawnChance": 70,
+                                "MinTerror": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "MyceligaeaCrab",
+                        "Subsurface": false,
+                        "QualityRequired": null,
+                        "Description": "",
+                        "Position": {
+                            "X": 1178,
+                            "Y": 1175
+                        },
+                        "Radius": 300,
+                        "DiscoveryValue": 20,
+                        "ParentTile": null,
+                        "Spawns": [
+                            {
+                                "SpawnName": "EasternAnglerCrab",
+                                "Entity": null,
+                                "SpawnChance": 70,
+                                "MinTerror": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "MyceligaeaKhanate",
+                        "Subsurface": false,
+                        "QualityRequired": null,
+                        "Description": "",
+                        "Position": {
+                            "X": 1178,
+                            "Y": 309
+                        },
+                        "Radius": 300,
+                        "DiscoveryValue": 20,
+                        "ParentTile": null,
+                        "Spawns": [
+                            {
+                                "SpawnName": "KhanateTrimaran",
+                                "Entity": null,
+                                "SpawnChance": 70,
+                                "MinTerror": 0
+                            }
+                        ]
+                    }
+                ],
+                "Area": {
+                    "World": null,
+                    "Name": null,
+                    "Description": "",
+                    "ImageName": "",
+                    "MarketAccessPermitted": false,
+                    "MoveMessage": "",
+                    "HideName": false,
+                    "RandomPostcard": false,
+                    "MapX": 0,
+                    "MapY": 0,
+                    "UnlocksWithQuality": null,
+                    "ShowOps": false,
+                    "PremiumSubRequired": false,
+                    "Id": 101925
+                },
+                "Setting": {
+                    "World": null,
+                    "OwnerName": null,
+                    "Name": "",
+                    "Personae": [],
+                    "StartingArea": null,
+                    "StartingDomicile": null,
+                    "ItemsUsableHere": false,
+                    "Exchange": null,
+                    "TurnLengthSeconds": 0,
+                    "MaxActionsAllowed": 0,
+                    "MaxCardsAllowed": 0,
+                    "ActionsInPeriodBeforeExhaustion": 0,
+                    "Description": "",
+                    "Id": 100261
+                },
+                "MaxTilePopulation": 3,
+                "TerrainData": [
+                    {
+                        "PrefabName": "Myceligaea/Uttershroom",
+                        "SubsurfacePrefabName": "Myceligaea/Uttershroom_ZM",
+                        "Name": "The Uttershroom",
+                        "Description": "",
+                        "Position": {
+                            "X": 750,
+                            "Y": 750
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup1",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 1004,
+                            "Y": 1136
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup1",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 358,
+                            "Y": 620
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup1",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 984,
+                            "Y": 477
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup2",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 655,
+                            "Y": 1027
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup2",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 818,
+                            "Y": 422
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup3",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 550,
+                            "Y": 370
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup3",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 483,
+                            "Y": 897
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup3",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 999,
+                            "Y": 321
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup3",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 1050,
+                            "Y": 812
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup4",
+                        "SubsurfacePrefabName": "Myceligaea/shroomgroup1_ZM",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 1055,
+                            "Y": 606
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup4",
+                        "SubsurfacePrefabName": "",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 1061,
+                            "Y": 985
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Myceligaea/shroomgroup4",
+                        "SubsurfacePrefabName": "",
+                        "Name": "shrooms",
+                        "Description": "",
+                        "Position": {
+                            "X": 488,
+                            "Y": 562
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 1,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Generic/buoyblue",
+                        "SubsurfacePrefabName": "Generic/buoyunderwater",
+                        "Name": "buoy",
+                        "Description": "",
+                        "Position": {
+                            "X": 1149,
+                            "Y": 892
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 0,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Generic/buoyblue",
+                        "SubsurfacePrefabName": "Generic/buoyunderwater",
+                        "Name": "buoy",
+                        "Description": "",
+                        "Position": {
+                            "X": 1094,
+                            "Y": 374
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 0,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Generic/buoyblue",
+                        "SubsurfacePrefabName": "Generic/buoyunderwater",
+                        "Name": "buoy",
+                        "Description": "",
+                        "Position": {
+                            "X": 759,
+                            "Y": 1112
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 0,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Generic/buoyblue",
+                        "SubsurfacePrefabName": "Generic/buoyunderwater",
+                        "Name": "buoy",
+                        "Description": "",
+                        "Position": {
+                            "X": 520,
+                            "Y": 817
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 0,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Generic/buoyblue",
+                        "SubsurfacePrefabName": "Generic/buoyunderwater",
+                        "Name": "buoy",
+                        "Description": "",
+                        "Position": {
+                            "X": 518,
+                            "Y": 727
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 0,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "Generic/generic_wreck",
+                        "SubsurfacePrefabName": "",
+                        "Name": "wreck",
+                        "Description": "",
+                        "Position": {
+                            "X": 296,
+                            "Y": 1203
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 0,
+                        "ParentTile": null
+                    },
+                    {
+                        "PrefabName": "",
+                        "SubsurfacePrefabName": "Generic/wreckrock_ZM",
+                        "Name": "wreckrock",
+                        "Description": "",
+                        "Position": {
+                            "X": 296,
+                            "Y": 1203
+                        },
+                        "DiscoveryValue": 0,
+                        "GleamValue": 0,
+                        "ParentTile": null
+                    }
+                ],
+                "PortData": [
+                    {
+                        "Name": "Uttershroom",
+                        "Rotation": 90,
+                        "Setting": {
+                            "World": null,
+                            "OwnerName": null,
+                            "Name": "",
+                            "Personae": [],
+                            "StartingArea": null,
+                            "StartingDomicile": null,
+                            "ItemsUsableHere": false,
+                            "Exchange": null,
+                            "TurnLengthSeconds": 0,
+                            "MaxActionsAllowed": 0,
+                            "MaxCardsAllowed": 0,
+                            "ActionsInPeriodBeforeExhaustion": 0,
+                            "Description": "",
+                            "Id": 101771
+                        },
+                        "Area": {
+                            "World": null,
+                            "Name": null,
+                            "Description": "",
+                            "ImageName": "",
+                            "MarketAccessPermitted": false,
+                            "MoveMessage": "",
+                            "HideName": false,
+                            "RandomPostcard": false,
+                            "MapX": 0,
+                            "MapY": 0,
+                            "UnlocksWithQuality": null,
+                            "ShowOps": false,
+                            "PremiumSubRequired": false,
+                            "Id": 102960
+                        },
+                        "Subsurface": false,
+                        "Position": {
+                            "X": 612,
+                            "Y": 784
+                        },
+                        "DiscoveryValue": 1,
+                        "IsStartingPort": false
+                    },
+                    {
+                        "Name": "Wreck of the Mikko",
+                        "Rotation": 0,
+                        "Setting": {
+                            "World": null,
+                            "OwnerName": null,
+                            "Name": "",
+                            "Personae": [],
+                            "StartingArea": null,
+                            "StartingDomicile": null,
+                            "ItemsUsableHere": false,
+                            "Exchange": null,
+                            "TurnLengthSeconds": 0,
+                            "MaxActionsAllowed": 0,
+                            "MaxCardsAllowed": 0,
+                            "ActionsInPeriodBeforeExhaustion": 0,
+                            "Description": "",
+                            "Id": 252401
+                        },
+                        "Area": {
+                            "World": null,
+                            "Name": null,
+                            "Description": "",
+                            "ImageName": "",
+                            "MarketAccessPermitted": false,
+                            "MoveMessage": "",
+                            "HideName": false,
+                            "RandomPostcard": false,
+                            "MapX": 0,
+                            "MapY": 0,
+                            "UnlocksWithQuality": null,
+                            "ShowOps": false,
+                            "PremiumSubRequired": false,
+                            "Id": 852400
+                        },
+                        "Subsurface": false,
+                        "Position": {
+                            "X": 344,
+                            "Y": 1203
+                        },
+                        "DiscoveryValue": 1,
+                        "IsStartingPort": false
+                    }
+                ],
+                "LabelData": [
+                    {
+                        "ParentTile": null,
+                        "Label": "The Uttershroom",
+                        "Description": "",
+                        "Position": {
+                            "X": 768,
+                            "Y": 775
+                        },
+                        "Subsurface": false,
+                        "DiscoveryValue": 50,
+                        "Radius": 100,
+                        "Important": true
+                    },
+                    {
+                        "ParentTile": null,
+                        "Label": "Wreck of the Mikko",
+                        "Description": "",
+                        "Position": {
+                            "X": 295,
+                            "Y": 1154
+                        },
+                        "Subsurface": false,
+                        "DiscoveryValue": 50,
+                        "Radius": 100,
+                        "Important": false
+                    }
+                ],
+                "PhenomenaData": [],
+                "SeaColour": "Default",
+                "MusicTrackName": "LimpidLiquid",
+                "Weather": [
+                    "Fog"
+                ],
+                "ChanceOfWeather": 15,
+                "SubsurfaceWeather": [
+                    "CurrentNormal"
+                ],
+                "SubsurfaceChanceOfWeather": 100,
+                "SeabedTexture": "mossy2",
+                "IsGeneric": false,
+                "FogRevealThreshold": 0
+            }
+        ],
+        "IsGeneric": false,
+        "GenericTiles": []
+    }
+]
